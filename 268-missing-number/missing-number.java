@@ -9,7 +9,7 @@ class Solution {
         }
         for(int i=1;i<nums.length;i++){
             if(nums[i]!=i){
-                return nums[i]-1;
+                return i;
             }
         }
         return -1;
