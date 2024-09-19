@@ -6,7 +6,7 @@ class Solution {
         if(nums.length==1){
             return;
         }
-        while(j<nums.length && i<nums.length-1){
+        while(j<nums.length ){
             if(nums[i]==0)
             {
                 if(nums[j]!=0){
